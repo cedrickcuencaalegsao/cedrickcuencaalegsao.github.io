@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Loader from "./component/loader/loader";
 import Hero from "./component/hero/hero";
 import Work from "./component/work/work";
+import Contact from "./component/contact/contact";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ export default function Home() {
     <main>
       <Hero />
       <Work />
+      <Contact />
     </main>
   );
 }
