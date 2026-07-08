@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Loader from "./component/loader/loader";
 import Hero from "./component/hero/hero";
+import Work from "./component/work/work";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <Work />
     </main>
   );
 }
