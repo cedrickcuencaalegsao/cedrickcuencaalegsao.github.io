@@ -28,6 +28,22 @@ export default function Hero() {
           <p className="mt-6 text-sm font-medium uppercase tracking-[0.2em] text-indigo-400">
             Hi, I&apos;m Cedrick
           </p>
+          <p className="mt-2 inline-flex items-center gap-2 text-sm font-medium text-foreground/60">
+            <svg
+              className="h-4 w-4 text-foreground/50"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c0 1.7 3.6 3 6 3s6-1.3 6-3v-5" />
+            </svg>
+            BS in Computer Science
+          </p>
           <h1 className="mt-3 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
             Building{" "}
             <span className="bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-cyan-300 bg-clip-text text-transparent">
