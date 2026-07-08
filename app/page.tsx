@@ -1,9 +1,10 @@
 "use client";
 import { useState } from "react";
 import Loader from "./component/loader/loader";
+import Hero from "./component/hero/hero";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   if (loading) {
     return (
@@ -14,8 +15,8 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <h1>My Portfolio</h1>
-    </div>
+    <main>
+      <Hero />
+    </main>
   );
 }
